@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <title>Flask - access token</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="static/bootstrap.min.css" rel="stylesheet" media="screen">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Received</h1>
+      <br>
+      <p>Access token: {{access_token}}</p>
+      <p>Refresh token: {{refresh_token}}</p>
+      <p>Expires in: {{expires_in}}</p>
+      <p>Token type: {{token_type}}</p>
+      <p>Scope: {{scope}}</p>
+      <p>Email: {{email}}</p>
+      <p>First name: {{first_name}}</p>
+      <p>Last name: {{last_name}}</p>
+      <br>
+      <p><a href="http://localhost:8000/link/">Link this account</a></p>
+    </div>
+  </body>
+</html>

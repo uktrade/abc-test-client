@@ -1,0 +1,9 @@
+---
+applications:
+- name: prod-abc-client
+  memory: 128M 
+  disk_quota: 256M 
+  instances: 1
+  random-route: true
+  buildpack: python_buildpack
+  command: python app.py
